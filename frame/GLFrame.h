@@ -34,7 +34,7 @@ namespace SparkMap
   class GLFrame : public wxFrame
   {
   public:
-    GLFrame(wxWindow *parent, wxWindowID id = WidgetID::ID_GL_FRAME, const wxString &title = wxT("主窗体"), const wxPoint &pos = wxDefaultPosition, const wxSize &size = wxSize(1024, 768), long style = wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL);
+    GLFrame(wxWindow *parent, wxWindowID id = WidgetID::ID_GL_FRAME, const wxString &title = wxT("Main Windows"), const wxPoint &pos = wxDefaultPosition, const wxSize &size = wxSize(1024, 768), long style = wxDEFAULT_FRAME_STYLE | wxTAB_TRAVERSAL);
     virtual ~GLFrame();
     //
   private:

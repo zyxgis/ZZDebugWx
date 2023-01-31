@@ -1,11 +1,11 @@
 #pragma once
 #pragma execution_character_set("utf-8")
 
-// #define _CRTDBG_MAP_ALLOC
+#define _CRTDBG_MAP_ALLOC
 // #define wxUSE_DEBUG_NEW_ALWAYS
 // #define wxUSE_VC_CRTDBG
 
-// #include <crtdbg.h>
+//#include <crtdbg.h>
 // #include <iostream>
 
 #ifdef __WXMSW__

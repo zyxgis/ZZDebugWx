@@ -15,11 +15,10 @@ namespace SparkMap
 
   wxBEGIN_EVENT_TABLE(GLFrame, wxFrame)
 
-      wxEND_EVENT_TABLE()
-      //
-      GLFrame::GLFrame(wxWindow *parent, wxWindowID id, const wxString &title, const wxPoint &pos, const wxSize &size, long style)
-      : wxFrame(parent, id, title, pos, size, style)
-
+  wxEND_EVENT_TABLE()
+  //
+  GLFrame::GLFrame(wxWindow *parent, wxWindowID id, const wxString &title, const wxPoint &pos, const wxSize &size, long style)
+  : wxFrame(parent, id, title, pos, size, style)
   {
     this->SetIcon(wxICON(appIcon));
     //

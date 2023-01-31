@@ -17,7 +17,7 @@
 
 namespace SparkMap
 {
-  // 告诉wxWidgets主应用程序是哪个类
+  //
   wxIMPLEMENT_APP(AppMain);
 
   bool AppMain::OnInit()
@@ -29,7 +29,7 @@ namespace SparkMap
     }
 
     //
-    const wxString title = wxT("主窗体");
+    const wxString title = wxT("Main Windows");
 
     const wxSize size(1024, 768);
 

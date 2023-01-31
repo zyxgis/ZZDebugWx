@@ -10,13 +10,6 @@ set(CMAKE_BUILD_TYPE "Debug")
 
 Add_Definitions(-DUNICODE -D_UNICODE -D_DEBUG -D_WINDOWS -D__WXMSW__ -DWXUSINGDLL  -DwxMSVC_VERSION_AUTO -DwxMSVC_VERSION_ABI_COMPAT  -D_CRT_SECURE_NO_WARNINGS -D_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING)
 
-# /JMC /permissive- /ifcOutput "x64\Debug\" /GS /W3 /Zc:wchar_t /I"E:\bigdata/LibCPP\wxWidgets\3.2.1\include\msvc" /I"E:\bigdata/LibCPP\wxWidgets\3.2.1\include" 
-# /ZI /Gm- /Od /sdl /Fd"x64\Debug\vc143.pdb" /Zc:inline /fp:precise 
-# /D "_DEBUG" /D "_WINDOWS" /D "_CRT_SECURE_NO_WARNINGS" /D "__WXMSW__" /D "WXUSINGDLL" /D "wxMSVC_VERSION_AUTO" /D "wxMSVC_VERSION_ABI_COMPAT" 
-# /D "_UNICODE" /D "UNICODE" /errorReport:prompt 
-# /WX- /Zc:forScope /RTC1 /Gd /MDd /FC /Fa"x64\Debug\" 
-# /EHsc /nologo /Fo"x64\Debug\" /Fp"x64\Debug\Test01.pch" /diagnostics:column 
-
 # wxWidgets
 set(wxWidgets_ROOT_DIR "E:/bigdata/LibCPP/wxWidgets/3.2.1")
 set(wxWidgets_LIB_DIR "E:/bigdata/LibCPP/wxWidgets/3.2.1/lib/vc14x_x64_dll")

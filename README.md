@@ -1,2 +1,2 @@
 # ZZDebugWx
-Report WxWidget place in vector.h  conflict with crtdbg.h
+WxWidget place in vector.h  conflict with crtdbg.h

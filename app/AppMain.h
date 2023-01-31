@@ -10,18 +10,19 @@
 
 namespace SparkMap
 {
-  // 定义应用程序类
+  //
   class AppMain : public wxApp
   {
   public:
     AppMain()
     {
-      EnableMemLeakCheck(); 
+      EnableMemLeakCheck();
       //
+      int* leakptr = new int[100];
+      memset(leakptr, 0x5f, 100 * sizeof(int));
       frame = nullptr;
     }
 
-    // 这个函数将会在程序启动的时候被调用
     // virtual wxApp methods
     virtual bool OnInit() override;
     virtual int OnExit() override;
@@ -29,6 +30,7 @@ namespace SparkMap
   private:
     wxFrame *frame;
   };
-  // 有了这一行就可以使用 AppMain& wxGetApp()了
+
+  //
   wxDECLARE_APP(AppMain);
 }

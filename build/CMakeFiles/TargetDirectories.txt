@@ -1,3 +1,0 @@
-D:/Project/CPlusPlus/ZZDebugWx/build/CMakeFiles/ZZDebugWx.dir
-D:/Project/CPlusPlus/ZZDebugWx/build/CMakeFiles/ALL_BUILD.dir
-D:/Project/CPlusPlus/ZZDebugWx/build/CMakeFiles/ZERO_CHECK.dir

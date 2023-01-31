@@ -1,0 +1,10 @@
+^D:\PROJECT\CPLUSPLUS\ZZDEBUGWX\BUILD\CMAKEFILES\9C83A3005CA0A57E7511827F1707C1D4\GENERATE.STAMP.RULE
+setlocal
+D:\GreenSoftware\CMake-3.24.2\bin\cmake.exe -SD:/Project/CPlusPlus/ZZDebugWx -BD:/Project/CPlusPlus/ZZDebugWx/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Project/CPlusPlus/ZZDebugWx/build/win-wx.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

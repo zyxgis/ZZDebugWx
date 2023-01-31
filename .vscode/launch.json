@@ -1,0 +1,29 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "ZZDebugWx.exe",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/Debug/ZZDebugWx.exe",
+      "args": [
+      ],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [
+        {
+          "name": "PATH",
+          "value": "%PATH%;E:/bigdata/LibCPP/wxWidgets/3.2.1/lib/vc14x_x64_dll;${workspaceFolder}/build/Debug"
+        }
+      ],
+      //"console": "externalTerminal"
+      "console": "internalConsole",
+      //"console": "integratedTerminal", 
+          
+    }
+  ],
+}

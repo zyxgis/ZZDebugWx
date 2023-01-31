@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3F30BB88-950B-3860-AC79-A8504C90251A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZZDebugWx</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ZZDebugWx.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ZZDebugWx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ZZDebugWx.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">ZZDebugWx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ZZDebugWx.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">ZZDebugWx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ZZDebugWx.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">ZZDebugWx</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/lib/vc14x_x64_dll/mswu" /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;UNICODE;_UNICODE;_DEBUG;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;UNICODE;_UNICODE;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_gl.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_core.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32ud.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32ud_xml.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_ribbon.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_propgrid.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_richtext.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32ud_net.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_webview.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_html.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_media.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_stc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_xrc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_adv.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_aui.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32ud_qa.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxpngd.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxtiffd.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxjpegd.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxzlibd.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxregexud.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxexpatd.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;winmm.lib;wldap32.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;wldap32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/CPlusPlus/ZZDebugWx/build/Debug/ZZDebugWx.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/CPlusPlus/ZZDebugWx/build/Debug/ZZDebugWx.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/lib/vc14x_x64_dll/mswu" /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_DEBUG;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_DEBUG;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_gl.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_core.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u_xml.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_ribbon.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_propgrid.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_richtext.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u_net.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_webview.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_html.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_media.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_stc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_xrc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_adv.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_aui.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_qa.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxpng.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxtiff.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxjpeg.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxzlib.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxregexu.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;winmm.lib;wldap32.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;wldap32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/CPlusPlus/ZZDebugWx/build/Release/ZZDebugWx.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/CPlusPlus/ZZDebugWx/build/Release/ZZDebugWx.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/lib/vc14x_x64_dll/mswu" /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_DEBUG;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_DEBUG;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_gl.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_core.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u_xml.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_ribbon.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_propgrid.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_richtext.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u_net.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_webview.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_html.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_media.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_stc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_xrc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_adv.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_aui.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_qa.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxpng.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxtiff.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxjpeg.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxzlib.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxregexu.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;winmm.lib;wldap32.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;wldap32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/CPlusPlus/ZZDebugWx/build/MinSizeRel/ZZDebugWx.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/CPlusPlus/ZZDebugWx/build/MinSizeRel/ZZDebugWx.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/lib/vc14x_x64_dll/mswu" /external:I "E:/bigdata/LibCPP/wxWidgets/3.2.1/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_DEBUG;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;_DEBUG;__WXMSW__;WXUSINGDLL;wxMSVC_VERSION_AUTO;wxMSVC_VERSION_ABI_COMPAT;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Project\CPlusPlus\ZZDebugWx\build;D:\Project\CPlusPlus\ZZDebugWx;D:\Project\CPlusPlus\ZZDebugWx\resource\rc;D:\Project\CPlusPlus\ZZDebugWx\resource\xpm;D:\Project\CPlusPlus\ZZDebugWx\common;D:\Project\CPlusPlus\ZZDebugWx\app;D:\Project\CPlusPlus\ZZDebugWx\frame;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\mswu;E:\bigdata\LibCPP\wxWidgets\3.2.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_gl.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_core.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u_xml.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_ribbon.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_propgrid.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_richtext.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxbase32u_net.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_webview.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_html.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_media.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_stc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_xrc.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_adv.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_aui.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxmsw32u_qa.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxpng.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxtiff.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxjpeg.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxzlib.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxregexu.lib;E:\bigdata\LibCPP\wxWidgets\3.2.1\lib\vc14x_x64_dll\wxexpat.lib;opengl32.lib;glu32.lib;winmm.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;winmm.lib;wldap32.lib;comctl32.lib;uuid.lib;oleacc.lib;uxtheme.lib;rpcrt4.lib;shlwapi.lib;version.lib;wsock32.lib;ws2_32.lib;wldap32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Project/CPlusPlus/ZZDebugWx/build/RelWithDebInfo/ZZDebugWx.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Project/CPlusPlus/ZZDebugWx/build/RelWithDebInfo/ZZDebugWx.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Project\CPlusPlus\ZZDebugWx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Project/CPlusPlus/ZZDebugWx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\GreenSoftware\CMake-3.24.2\bin\cmake.exe -SD:/Project/CPlusPlus/ZZDebugWx -BD:/Project/CPlusPlus/ZZDebugWx/build --check-stamp-file D:/Project/CPlusPlus/ZZDebugWx/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindwxWidgets.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\UsewxWidgets.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Project/CPlusPlus/ZZDebugWx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\GreenSoftware\CMake-3.24.2\bin\cmake.exe -SD:/Project/CPlusPlus/ZZDebugWx -BD:/Project/CPlusPlus/ZZDebugWx/build --check-stamp-file D:/Project/CPlusPlus/ZZDebugWx/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindwxWidgets.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\UsewxWidgets.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Project/CPlusPlus/ZZDebugWx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\GreenSoftware\CMake-3.24.2\bin\cmake.exe -SD:/Project/CPlusPlus/ZZDebugWx -BD:/Project/CPlusPlus/ZZDebugWx/build --check-stamp-file D:/Project/CPlusPlus/ZZDebugWx/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindwxWidgets.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\UsewxWidgets.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Project/CPlusPlus/ZZDebugWx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\GreenSoftware\CMake-3.24.2\bin\cmake.exe -SD:/Project/CPlusPlus/ZZDebugWx -BD:/Project/CPlusPlus/ZZDebugWx/build --check-stamp-file D:/Project/CPlusPlus/ZZDebugWx/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeCompilerIdDetection.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompileFeatures.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerABI.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineCompilerId.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeDetermineSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeFindBinUtils.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitIncludeInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseImplicitLinkInfo.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeParseLibraryArchitecture.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCCompiler.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeRCInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystem.cmake.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCXXCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestCompilerCommon.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CMakeTestRCCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\ARMClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVHPC-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\TI-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\CompilerId\VS-10.vcxproj.in;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindPackageMessage.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\FindwxWidgets.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Internal\FeatureTesting.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-Determine-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\Windows.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;D:\GreenSoftware\CMake-3.24.2\share\cmake-3.24\Modules\UsewxWidgets.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\3.24.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Project\CPlusPlus\ZZDebugWx\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\Project\CPlusPlus\ZZDebugWx\resource\rc\resource.rc" />
+    <ClCompile Include="D:\Project\CPlusPlus\ZZDebugWx\common\MemoryCheck.cpp" />
+    <ClCompile Include="D:\Project\CPlusPlus\ZZDebugWx\common\Base.cpp" />
+    <ClCompile Include="D:\Project\CPlusPlus\ZZDebugWx\app\AppMain.cpp" />
+    <ClCompile Include="D:\Project\CPlusPlus\ZZDebugWx\app\AppUtilities.cpp" />
+    <ClCompile Include="D:\Project\CPlusPlus\ZZDebugWx\frame\GLFrame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Project\CPlusPlus\ZZDebugWx\build\ZERO_CHECK.vcxproj">
+      <Project>{36A9CC6D-C2E9-3A7B-B7A2-AFF35CC74087}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

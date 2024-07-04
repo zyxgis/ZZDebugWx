@@ -4,7 +4,7 @@
 #ifndef Base_h
 #define Base_h
 
-#include "MemoryCheck.h"
+// #include "MemoryCheck.h"
 
 #include <iostream>
 

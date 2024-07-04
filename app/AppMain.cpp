@@ -14,11 +14,21 @@
 #include <iostream>
 #include <iomanip>
 //
+#include "MemoryCheck.h"
 
 namespace SparkMap
 {
   //
   wxIMPLEMENT_APP(AppMain);
+
+  AppMain::AppMain()
+  {
+    EnableMemLeakCheck();
+    //
+    int *leakptr = new int[100];
+    memset(leakptr, 0x5f, 100 * sizeof(int));
+    frame = nullptr;
+  }
 
   bool AppMain::OnInit()
   {

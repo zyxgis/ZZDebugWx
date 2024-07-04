@@ -4,9 +4,6 @@
 #include "AppConfig.h"
 
 //
-#include <wx/wxprec.h>
-
-//
 namespace SparkMap
 {
   // EVT_MENU(wxID_NEW, GLFrame::OnNewWindow)

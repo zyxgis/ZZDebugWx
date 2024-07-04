@@ -14,14 +14,7 @@ namespace SparkMap
   class AppMain : public wxApp
   {
   public:
-    AppMain()
-    {
-      EnableMemLeakCheck();
-      //
-      int* leakptr = new int[100];
-      memset(leakptr, 0x5f, 100 * sizeof(int));
-      frame = nullptr;
-    }
+    AppMain();
 
     // virtual wxApp methods
     virtual bool OnInit() override;
